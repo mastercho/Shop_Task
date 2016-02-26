@@ -1,0 +1,249 @@
+
+body {
+    padding-top: 50px; 
+    height: 90%;
+    /*background-color: #cccccc;*/
+    // height: 2000px
+}
+#logo
+{
+    color:white;
+    font-size: x-large;
+}
+#logo_img
+{
+    height: 100px;
+    width: 200px;
+
+}
+
+#cart_logo
+{
+    height: 80px;
+    width: 80px;
+
+}
+#item-cart
+{
+    margin-top: 5px;
+
+}
+#profile_img_top
+{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    //z-index: 220; 
+}
+#cover_profile_area
+{
+    background-image: url(../images/cover.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+    width: 100%;
+    // height: auto;
+}
+#profile_cover
+{
+    padding-top: 150px;
+    border: solid 2px #999;
+
+}
+#profile_cover_name
+{
+    padding-top: 250px;
+    border: solid 2px #999;
+}
+#profile_img
+{
+    height: 200px;
+    z-index: 200;
+    //bottom: 200px;
+}
+#cover_img
+{
+    height:350px;
+    width: 100%;
+}
+.text_white
+{
+    color: white;
+}
+#nav_cover
+{
+    height: 50px;
+}
+#cover_nav_header
+{
+    color:black;
+
+}
+#page_content
+{
+    padding-top: 50px;
+}
+#post_img
+{
+    height: 500px;
+    width:auto;
+}
+#ad_image
+{
+    width: auto;
+    height: 20%;
+}
+#search
+{
+    padding-top:10px;
+}
+#capital
+{
+    text-transform: uppercase;
+}
+#img_post
+{
+    height: 50px;
+}
+.border-primary
+{
+    border: solid 5px #2e6da4;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img 
+{
+    width: 100%;
+    height: 400px;
+    // margin:initial;
+}
+#dropdown
+{
+    padding-top:40px;
+
+}
+
+/*------------------------------------*/
+.filestyle > input
+{
+    display: none;
+}
+.filebox
+{
+    height: 50px;
+}
+/*------------------------------------*/
+
+#add_to_cart
+{
+    width: 235px;
+    /*width:172%;*/
+    
+}
+
+#details
+{
+    width: 120px;
+}
+#prdct_add_image
+{
+    height:20%;
+}
+#product_img
+{
+    width: 100%;
+    height: 200px;
+}
+
+#adver_img
+{
+    height:630px;   
+}
+#yello
+{
+    background-color: lightblue;
+}
+#overflow
+{
+    overflow: hidden;
+}
+
+#img
+{
+    height:200px;
+
+}
+#photos_img
+{
+    height: 200px;
+}
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+
+}
+/* chat box styles*/
+.overflow-chat
+{
+    overflow: auto;
+    height: 30em;
+}
+.chat_msg
+{
+    right: 10px;
+}
+
+#chat_user_img
+{
+    height: 40px;
+    width: 40px;
+}
+
+/* chat box styles close*/
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: px;
+    position: fixed;
+    display: block;
+    opacity: .9;
+    background-color: black;
+    z-index: 99;
+    text-align: center;
+}
+#loading-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 600;
+    //height:100px;
+}
+@media screen and (max-width: 480px) {
+    #loading-image{
+    }
+    #ads
+    {
+        display: none;
+    }
+}
+
+
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
